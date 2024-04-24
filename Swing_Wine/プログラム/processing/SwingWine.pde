@@ -1,8 +1,4 @@
 /*
- 学生番号：2310026
- 氏名：大塚眞柊
- 知識メディア方法論 最終課題
- 
  使用した外部ライブラリ「Minim」(音を出すためのライブラリ)
  
  使用した音源
@@ -71,6 +67,7 @@ void setup() {
   breakTiming = false;
   interval = 0;
 
+  //効果音セット
   minim = new Minim(this);
   bgm = minim.loadFile("./sound/8bit Game Menu.mp3");
   breakblock = minim.loadFile("./sound/breakblock.mp3");
